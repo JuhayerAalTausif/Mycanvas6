@@ -124,7 +124,7 @@ this.mass = 1;
       resolveCollision(this, circleArr[j]);
     }
   }
-            if(getDistance(mouse.x, this.x, mouse.y, this.y) < 50 && this.opacity < 0.7){
+            if(getDistance(mouse.x, this.x, mouse.y, this.y) < 100 && this.opacity < 0.7){
                 this.opacity += 0.2;
             }else if(this.opacity > 0){
     this.opacity -= 0.2;
